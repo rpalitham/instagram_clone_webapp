@@ -1,0 +1,299 @@
+.feed-container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.feed-container .content {
+  max-width: 975px;
+  width: 100%;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.feed-container .content .feed-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.feed-container .content .feed-content .create-post {
+  width: 600px;
+  height: 100px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 30px;
+}
+
+.feed-container .content .feed-content .create-post .heading {
+  line-height: 2.5;
+  width: 100%;
+  text-align: center;
+  color: #545454;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #adb5bd;
+}
+
+.feed-container .content .feed-content .create-post button {
+  height: 30px;
+  width: 90px;
+  border: none;
+  background: none;
+  margin-right: 30px;
+  color: #545454;
+}
+
+.feed-container .content .feed-content .create-post button:hover {
+  border: none;
+  background: none;
+}
+
+.feed-container .content .feed-content .create-post button:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.feed-container .content .feed-content .create-post i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.feed-container .content .profile-content {
+  position: fixed;
+  left: 849px;
+  top: 100px;
+  width: 100%;
+  max-width: 293px;
+}
+
+.feed-container .content .profile-content .profile {
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 75px;
+}
+
+.feed-container .content .profile-content .suggestions-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.feed-container .content .profile-content .suggestions-container header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.feed-container .content .profile-content .suggestions-container .heading {
+  color: #8e8e8e;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  i {
+  font-size: 35px;
+  color: #adb5bd;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  a {
+  text-decoration: none;
+  color: #262626;
+  font-weight: 600;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  button {
+  border: 0;
+  color: #0095f6;
+  display: inline;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  background: 0 0;
+  user-select: none;
+  font-size: 12px;
+  /* width: auto; */
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  button:active {
+  border: 0;
+  color: #0095f6;
+  padding: 0;
+  background: 0 0;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  button:focus {
+  border: 0;
+  color: #0095f6;
+  padding: 0;
+  background: 0 0;
+  outline: none;
+}
+
+.feed-container
+  .content
+  .profile-content
+  .suggestions-container
+  .suggestions-list
+  .suggestion
+  .full-name {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  overflow: hidden;
+  padding-left: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #8e8e8e;
+}
+
+.feed-container .content .profile-content .profile i {
+  font-size: 60px;
+  color: #adb5bd;
+}
+
+.feed-container .content .profile-content .profile a {
+  color: #262626;
+  font-weight: 600;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.feed-container .content .profile-content .profile .full-name {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  overflow: hidden;
+  padding-left: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #8e8e8e;
+}
+
+.feed-container .content .post {
+  height: 650px;
+  width: 600px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+}
+
+.feed-container .content .post .comments .icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  margin: 10px 0px;
+  padding: 0px 15px;
+}
+
+.feed-container .content .post .comments .icons-container i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.feed-container .content .post .header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #efefef;
+}
+
+.feed-container .content .post .image-container {
+  min-height: 400px;
+}
+
+.feed-container .content .post .header i {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.feed-container .content .post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feed-container .content .post .comments .post-description a {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #262626;
+}
+
+.feed-container .content .post .comments .post-description {
+  padding: 0 15px;
+}

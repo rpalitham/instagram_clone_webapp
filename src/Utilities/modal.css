@@ -1,0 +1,90 @@
+@media (min-width: 576px) {
+  .modal-content {
+    max-width: 650px !important;
+    margin: 1.75rem auto;
+    border-radius: 1rem;
+  }
+}
+
+.modal-dialog {
+  max-width: 540px !important;
+}
+
+.modal-content .modal-body {
+  max-height: 600px !important;
+  overflow: auto;
+}
+
+.modal-content .modal-body .danger-button {
+  margin-left: 3px;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.modal-content .modal-body .danger-button:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.modal-content ModalHeader {
+  user-select: none !important;
+}
+
+.modal-title {
+  user-select: none !important;
+  margin-bottom: -8px !important;
+}
+
+.modal-header .close {
+  margin: -3rem -1.5rem 1rem auto !important;
+  height: 10px;
+  width: 10px;
+  float: right !important;
+}
+
+.modal-header {
+  display: flex !important;
+  justify-content: center;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 3px 0;
+  min-height: 50px;
+}
+
+.close {
+  opacity: 1.9 !important;
+  border-radius: 64% !important;
+  line-height: 0px !important;
+  position: relative;
+  padding: 13px 19px 15px 10px !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 10px !important;
+}
+
+button.close {
+  background-color: #ffffff !important;
+}
+
+body {
+  font-size: 0.8rem !important;
+}
+
+.text .button {
+  border-radius: 0px !important;
+}
+
+.text .btn {
+  border-radius: 0px !important;
+}
