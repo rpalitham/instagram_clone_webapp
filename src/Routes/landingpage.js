@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import AppLayout from "../Components/AppLayout";
+import Authentication from "./authentication";
 import ProtectedRoute from "../protectedRoute";
 
 class LandingPage extends React.Component {
@@ -17,9 +18,7 @@ class LandingPage extends React.Component {
             component={AppLayout}
           ></ProtectedRoute>
         ) : (
-          <div style={{ textAlign: "center" }}>
-            <Link to="/auth/login">Login</Link>
-          </div>
+          <Authentication />
         )}
       </div>
     );

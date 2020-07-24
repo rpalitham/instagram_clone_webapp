@@ -10,7 +10,7 @@
   color: black;
 }
 
-.auth-container input[type="text"],
+/* .auth-container .form-container input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 8px 10px;
@@ -19,7 +19,7 @@ input[type="password"] {
   border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
-}
+} */
 
 .auth-container .field-icon {
   float: right;
