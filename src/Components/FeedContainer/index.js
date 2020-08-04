@@ -49,7 +49,9 @@ class FeedContainer extends React.Component {
               />
             </div>
             {feed.data.length
-              ? feed.data.map((post, index) => <Post post={post} key={index} />)
+              ? feed.data.map((post, index) => (
+                  <Post post={post} user={LoggedInUser} key={index} />
+                ))
               : null}
           </div>
           <div className="profile-content">

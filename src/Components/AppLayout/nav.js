@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import useBounce from "../../Utilities/debounce";
-import logo from "../../Images/735145cfe0a4.png";
+import logo from "../../Images/logo.png";
 import "./nav.css";
 
 function Nav(props) {

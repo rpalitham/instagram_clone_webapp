@@ -2,7 +2,12 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as loginActions from "../Redux/actions/login";
-import logo from "../Images/735145cfe0a4.png";
+import logo from "../Images/logo.png";
+import screenshot1 from "../Images/screenshot1.jpg";
+import screenshot2 from "../Images/screenshot2.jpg";
+import screenshot3 from "../Images/screenshot3.jpg";
+import screenshot4 from "../Images/screenshot4.jpg";
+import screenshot5 from "../Images/screenshot5.jpg";
 import "./index.css";
 
 class Authentication extends React.Component {
@@ -29,13 +34,40 @@ class Authentication extends React.Component {
     });
   };
 
+  imageReload = () => {
+    let img = document.getElementById("show_img");
+    let images = [
+      screenshot1,
+      screenshot2,
+      screenshot3,
+      screenshot4,
+      screenshot5,
+    ];
+    let count = 0;
+    setInterval(() => {
+      console.log("set interval");
+      if (count >= images.length) count = 0;
+      img.src = images[count];
+      img.alt = "show";
+      count++;
+    }, 3000);
+  };
+
+  componentDidMount() {
+    this.imageReload();
+  }
+
   render() {
     let { email, password, loading } = this.state;
     return (
       <section className="authentication-container">
         <main className="main-content">
           <article>
-            <div className="left-container"></div>
+            <div className="left-container">
+              <div className="images">
+                <img id="show_img" src={screenshot1} alt="show"></img>
+              </div>
+            </div>
             <div className="right-container">
               <div className="top">
                 <div className="header">

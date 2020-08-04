@@ -241,6 +241,7 @@
 
 .feed-container .content .post {
   height: 650px;
+  position: relative;
   width: 600px;
   margin-bottom: 30px;
   border-radius: 3px;
@@ -269,6 +270,49 @@
   align-items: center;
   padding: 15px;
   border-bottom: 1px solid #efefef;
+}
+
+.feed-container .content .post .footer {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #efefef;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.feed-container .content .post .footer form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.feed-container .content .post .footer textarea {
+  border: none;
+  height: 18px;
+  width: 95%;
+  resize: none;
+  overflow: hidden;
+}
+
+.feed-container .content .post .footer textarea:focus {
+  border: none;
+  outline: none;
+}
+
+.feed-container .content .post .footer button {
+  border: 0;
+  color: #0095f6;
+  background: none;
+  display: inline;
+  padding: 0;
 }
 
 .feed-container .content .post .image-container {

@@ -38,6 +38,11 @@
   margin-right: -15px;
 }
 
+.authentication-container .main-content .left-container .images {
+  position: relative;
+  margin: 99px 0 0 151px;
+}
+
 .authentication-container .main-content .right-container {
   color: #262626;
   flex-grow: 1;
@@ -76,7 +81,7 @@
   margin: 0px 40px 10px;
   height: 35px;
   padding: 0px 10px;
-  background-color: rgba(0, 149, 246, 0.3);
+  background-color: #0095f6;
   opacity: 1;
   color: white;
   border: none;
@@ -89,5 +94,5 @@
   .form
   button:focus {
   border: 1px solid transparent;
-  background-color: #0095f6;
+  background-color: rgba(0, 149, 246, 0.3);
 }
